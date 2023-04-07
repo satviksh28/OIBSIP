@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    /* display: flex; */
+    width:100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80);
+    background-size: cover;
+    background-position: center;
+    z-index: 99999;
+
+
+}
+#nav
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    padding: 0px 50px;
+    font-size: 20px;
+    font-family: gilroy;
+    
+
+    
+}
+#links a{
+    text-decoration: none;
+    padding: 50px;
+   
+ 
+    color:white;
+}
+#links a:hover{
+    color: darkblue;
+}
+#links i{
+    text-decoration: none;
+    padding: 50px;
+ 
+    color:white;
+}
+
+#logo
+{
+    display:flex;
+    gap: 30px;
+    color: white;
+}
+
+#icon
+{
+    display: flex;
+color:white;
+gap:20px; 
+    
+
+}
+
+#icon :hover{
+    transform: scale(1.5);
+  color: #222222;
+  transition: all .2s ease-in-out;
+}
+#left
+{
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%);
+    top:50%;
+    left:50%; */
+    width: 40%;
+    height: 100%;
+    /* background-color: black; */
+    padding: 150px 70px;
+    color: #0277bd;
+    font-family: gilroy;
+}
+
+#left h1{
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#left h4{
+    font-size:15px;
+   
+}
+#left button
+{
+    background-color:#0277bd;;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius:25px;
+    font-size: larger;
+    font-family: gilroy;
+    cursor: pointer;
+}
+#left button:hover{
+    background-color: white;
+    color: #0277bd;
+}
+#right
+{
+    width:60%;
+    height:100%;
+    /* background-color:black; */
+} 
+
+#home
+{
+    display: flex;
+    height: 100%;
+}
+
+#image
+{
+    
+    display: flex;
+    
+
+}
+
+#image #a{
+    position: absolute;
+    top:280px;
+    height:50%;
+  border-radius: 25PX;     
+
+
+}
+
+#image #b{
+    position: absolute;
+    top:280px;
+    height:50%;
+    left:55%;   
+    border-radius: 25PX;                    
+
+}
+
+#image #c{
+    position: absolute;
+    top:280px;
+    height:50%;
+    left:73%;  
+    width:15%;  
+    border-radius: 25PX;                   
+
+
+}
+#image #d{
+    position: absolute;
+    top:280px;
+    height:50%;
+    left:90%;  
+    width:15%;                  
+    border-radius: 25PX;   
+
+}
+#beachs h4
+{
+    position: absolute;
+    top:73%;
+    left:42%;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: gilroy;
+    color:white;
+}
+#nature h4
+{
+    position: absolute;
+    top:73%;
+    left:58%;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: gilroy;
+    color:white;
+}
+#hotels h4
+{
+    position: absolute;
+    top:73%;
+    left:75%;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: gilroy;
+    color:white;
+}
